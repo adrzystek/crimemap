@@ -47,7 +47,7 @@ def submitcrime():
     latitude = float(request.form.get("latitude"))
     longitude = float(request.form.get("longitude"))
     description = request.form.get("description")
-    DBHelper.add_crime(category, date, latitude, longitude, description)
+    DB.add_crime(category, date, latitude, longitude, description)
     return home()
 
 if __name__ == '__main__':
