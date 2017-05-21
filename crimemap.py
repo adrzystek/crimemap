@@ -12,7 +12,7 @@ import datetime
 import dateparser
 import string
 
-categories = ['mugging', 'break-in']
+categories = ['mugging', 'break-in', 'theft', 'gangbang', 'ransom']
 
 app = Flask(__name__)
 DB = DBHelper()
